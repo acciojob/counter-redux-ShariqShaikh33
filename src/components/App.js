@@ -11,8 +11,8 @@ export function App(){
     <div>
         {/* Do not remove the main div */}
         <h1>{count}</h1>
-        <button name="increment" onClick={()=>dispatch(increment())}>Increment</button>
-        <button name="decrement" onClick={()=>dispatch(decrement())}>Decrement</button>
+        <button name="increment" onClick={()=>dispatch(increment())}>increment</button>
+        <button name="decrement" onClick={()=>dispatch(decrement())}>decrement</button>
     </div>
   )
 }
