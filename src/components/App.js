@@ -10,9 +10,9 @@ export function App(){
   return (
     <div>
         {/* Do not remove the main div */}
-        <button onClick={()=>dispatch(increment())}>increment</button>
         <h1>{count}</h1>
-        <button onClick={()=>dispatch(decrement())}>decrement</button>
+        <button name="increment" onClick={()=>dispatch(increment())}>Increment</button>
+        <button name="decrement" onClick={()=>dispatch(decrement())}>Decrement</button>
     </div>
   )
 }
